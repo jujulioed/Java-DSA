@@ -52,4 +52,12 @@ public class Vetor {
         return sb.toString();
     }
 
+    public String busca(int posicao) {
+        if (!(posicao >= 0 && posicao < tamanho)) {
+            throw new IllegalArgumentException("Posição inválida");
+        }
+
+        return this.elementos[posicao];
+    }
+
 }

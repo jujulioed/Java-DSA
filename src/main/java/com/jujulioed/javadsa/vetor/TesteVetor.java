@@ -8,7 +8,9 @@ public class TesteVetor {
         vetor.adiciona("Elemento 2");
         vetor.adiciona("Elemento 3");
 
-        System.out.println(vetor.toString());
+        System.out.println(vetor.busca(5));
+
+
         int i = 0;
     }
 }
